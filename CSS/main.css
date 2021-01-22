@@ -5,3 +5,14 @@
 body {
   background-color:#f44336;
 }
+
+.fruitholder {
+  background-color: #4CAF50;
+  margin-top: 10px;
+}
+.fruitimage {
+  max-width: 80%;
+  max-height: 80%;
+  width: auto;
+  height: auto;
+}
