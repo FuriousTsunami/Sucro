@@ -61,3 +61,14 @@
   });
 
 })(jQuery); // End of use strict
+
+// Check Internet Connection
+window.addEventListener("offline", (event) => {
+  const contact = document.getElementById("contact");
+  contact.src = "/offline.html";
+});
+
+window.addEventListener("online", (event) => {
+  const contact = document.getElementById("contact");
+  contact.src = "https://docs.google.com/forms/d/e/1FAIpQLScwYsirds9tsStHxPDPYwZDylFSrQgeBfAdECvnxN-AIi1pFw/viewform?embedded=true";
+});
