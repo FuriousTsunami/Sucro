@@ -21,6 +21,7 @@ const filestoCache = [
   "/Images/safe.png",
   "/Images/submarine.png",
   "/Images/Sucro.png",
+  "https://docs.google.com/forms/d/e/1FAIpQLScwYsirds9tsStHxPDPYwZDylFSrQgeBfAdECvnxN-AIi1pFw/viewform?embedded=true",
 ];
 
 // Install ServiceWorker
