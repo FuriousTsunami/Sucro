@@ -1,6 +1,4 @@
 (function($) {
-  "use strict"; // Start of use strict
-
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -59,16 +57,4 @@
       $(this).removeClass("floating-label-form-group-with-focus");
     });
   });
-
-})(jQuery); // End of use strict
-
-// Check Internet Connection
-window.addEventListener("offline", (event) => {
-  const contact = document.getElementById("contact");
-  contact.src = "/offline.html";
-});
-
-window.addEventListener("online", (event) => {
-  const contact = document.getElementById("contact");
-  contact.src = "https://docs.google.com/forms/d/e/1FAIpQLScwYsirds9tsStHxPDPYwZDylFSrQgeBfAdECvnxN-AIi1pFw/viewform?embedded=true";
-});
+})(jQuery);
